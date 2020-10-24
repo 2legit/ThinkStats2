@@ -19,7 +19,7 @@ def main(script):
 
     script: string script name
     """
-    print('%s: All tests passed.' % script)
+    print('%s: All tests passed... but not really!' % script)
 
 
 if __name__ == '__main__':
