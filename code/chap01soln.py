@@ -25,6 +25,7 @@ def ReadFemResp(dct_file='2002FemResp.dct',
     returns: DataFrame
     """
     dct = thinkstats2.ReadStataDct(dct_file)
+    print('this worked?!')
     df = dct.ReadFixedWidth(dat_file, compression='gzip', nrows=nrows)
     CleanFemResp(df)
     return df
